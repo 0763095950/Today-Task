@@ -22,3 +22,5 @@ Route::get('/createitem', function () {
 
 });
 
+Route::resource('item','itemController');
+

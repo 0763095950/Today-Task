@@ -6,4 +6,16 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<a href ="item" class = "btn btn-primary" >Index </a>
+<a href ="item/create" class = "btn btn-primary" >Create </a>
+<table border ='2'>
+<tr>
+<td>Item Name</td>
+<td>{{$item->item_name}}</td></tr>
+<tr>
+<td>Item Price</td>
+<td>{{$item->prise}}</td></tr>
+<tr>
+<td>Item Quntity</td>
+<td>{{$item->Quantity}}</td></tr>
+</tr>
+</table>
